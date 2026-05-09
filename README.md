@@ -49,8 +49,10 @@ handling to make it actually work.
 Console-based social platform built around OOP — classes, inheritance, and 
 file-based persistent storage.
 
-### 🤖 AI Project *(In Progress)*
-Currently building an AI-based project as part of my academics. More details soon.
+### 🤖 AI Project 
+### 🌤️ [SkyRead](https://github.com/MehrmahKhan/SkyRead) `Python` `PyTorch` `ViT`
+
+An image-based weather detection system built with Vision Transformers (ViT-B/16) and Focal Loss. Detects 10 weather conditions from a single outdoor image using multi-label classification. Based on Samo et al., Sensors 2023.
 
 ---
 
