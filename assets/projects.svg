@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 534" width="900" height="534">
+
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1109"/>
+      <stop offset="100%" stop-color="#241709"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8b06a" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f0c27b"/>
+      <stop offset="100%" stop-color="#e8b06a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dglow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#0d0804"/>
+
+  <g>
+    <rect x="14" y="14" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="14" y="14" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="14;323;14" dur="7s" begin="0.0s" repeatCount="indefinite"/></rect>
+    <circle cx="36" cy="44" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="0.0s" repeatCount="indefinite"/></circle>
+    <text x="52" y="50" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">SafeCity</text>
+    <rect x="52" y="62" width="39" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="60" y="77" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">Java</text>
+    <rect x="98" y="62" width="32" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="106" y="77" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">SQL</text>
+    <text x="34" y="103" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">Citywide crime monitoring with live alerts and role</text>
+    <text x="34" y="118" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">based dashboards.</text>
+  </g>
+  <g>
+    <rect x="457" y="14" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="457" y="14" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="457;766;457" dur="7s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <circle cx="479" cy="44" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <text x="495" y="50" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">MindBloom</text>
+    <rect x="495" y="62" width="60" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="503" y="77" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">Android</text>
+    <rect x="562" y="62" width="39" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="570" y="77" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">Java</text>
+    <text x="477" y="103" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">A learning app for kids, built around how children</text>
+    <text x="477" y="118" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">actually tap and read.</text>
+  </g>
+  <g>
+    <rect x="14" y="144" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="14" y="144" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="14;323;14" dur="7s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <circle cx="36" cy="174" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <text x="52" y="180" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">MovieHive</text>
+    <rect x="52" y="192" width="46" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="60" y="207" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">React</text>
+    <rect x="105" y="192" width="32" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="113" y="207" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">SQL</text>
+    <text x="34" y="233" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">Letterboxd style movie database. Browse, track, keep</text>
+    <text x="34" y="248" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">a watch history.</text>
+  </g>
+  <g>
+    <rect x="457" y="144" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="457" y="144" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="457;766;457" dur="7s" begin="2.7s" repeatCount="indefinite"/></rect>
+    <circle cx="479" cy="174" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="2.7s" repeatCount="indefinite"/></circle>
+    <text x="495" y="180" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">SkyRead</text>
+    <rect x="495" y="192" width="53" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="503" y="207" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">Python</text>
+    <rect x="555" y="192" width="60" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="563" y="207" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">PyTorch</text>
+    <text x="477" y="233" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">A Vision Transformer that reads the weather from one</text>
+    <text x="477" y="248" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">outdoor photo.</text>
+  </g>
+  <g>
+    <rect x="14" y="274" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="14" y="274" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="14;323;14" dur="7s" begin="3.6s" repeatCount="indefinite"/></rect>
+    <circle cx="36" cy="304" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="3.6s" repeatCount="indefinite"/></circle>
+    <text x="52" y="310" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">Inventory System</text>
+    <rect x="52" y="322" width="39" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="60" y="337" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">Java</text>
+    <rect x="98" y="322" width="53" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="106" y="337" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">JavaFX</text>
+    <text x="34" y="363" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">Desktop app for real time stock tracking with a clean</text>
+    <text x="34" y="378" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">GUI.</text>
+  </g>
+  <g>
+    <rect x="457" y="274" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="457" y="274" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="457;766;457" dur="7s" begin="4.5s" repeatCount="indefinite"/></rect>
+    <circle cx="479" cy="304" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="4.5s" repeatCount="indefinite"/></circle>
+    <text x="495" y="310" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">Space Shooter</text>
+    <rect x="495" y="322" width="32" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="503" y="337" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">C++</text>
+    <rect x="534" y="322" width="39" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="542" y="337" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">SFML</text>
+    <text x="477" y="363" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">2D arcade shooter with collision detection and rising</text>
+    <text x="477" y="378" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">difficulty.</text>
+  </g>
+  <g>
+    <rect x="14" y="404" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="14" y="404" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="14;323;14" dur="7s" begin="5.4s" repeatCount="indefinite"/></rect>
+    <circle cx="36" cy="434" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="5.4s" repeatCount="indefinite"/></circle>
+    <text x="52" y="440" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">Sudoku + Maze</text>
+    <rect x="52" y="452" width="95" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="60" y="467" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">x86 Assembly</text>
+    <text x="34" y="493" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">Two complete games written at register level. Yes,</text>
+    <text x="34" y="508" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">really.</text>
+  </g>
+  <g>
+    <rect x="457" y="404" width="429" height="116" rx="10" fill="url(#cbg)" stroke="#8a5a23" stroke-opacity="0.55" stroke-width="1.2"/>
+    <rect x="457" y="404" width="120" height="2" rx="1" fill="url(#sweep)" opacity="0.9"><animate attributeName="x" values="457;766;457" dur="7s" begin="6.3s" repeatCount="indefinite"/></rect>
+    <circle cx="479" cy="434" r="3.4" fill="#e8b06a" filter="url(#dglow)"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="6.3s" repeatCount="indefinite"/></circle>
+    <text x="495" y="440" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#f6e3c5">Social Media App</text>
+    <rect x="495" y="452" width="32" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="503" y="467" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">C++</text>
+    <rect x="534" y="452" width="32" height="21" rx="10" fill="#2a1a0c" stroke="#8a5a23" stroke-opacity="0.6"/>
+    <text x="542" y="467" font-family="ui-monospace,monospace" font-size="11" fill="#d9a05b">OOP</text>
+    <text x="477" y="493" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">Console social platform with inheritance and file</text>
+    <text x="477" y="508" font-family="ui-monospace,monospace" font-size="11" fill="#a08763">based storage.</text>
+  </g>
+</svg>
