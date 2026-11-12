@@ -2,28 +2,28 @@
 
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0b0718"/>
-      <stop offset="45%" stop-color="#1a0f33"/>
-      <stop offset="78%" stop-color="#2d1550"/>
-      <stop offset="100%" stop-color="#140a26"/>
+      <stop offset="0%" stop-color="#0d0804"/>
+      <stop offset="45%" stop-color="#1b1109"/>
+      <stop offset="78%" stop-color="#3a2410"/>
+      <stop offset="100%" stop-color="#171009"/>
     </linearGradient>
     <radialGradient id="moonglow">
-      <stop offset="0%" stop-color="#e9d5ff" stop-opacity="0.55"/>
-      <stop offset="45%" stop-color="#a855f7" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#f6e3c5" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#c98a3c" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#c98a3c" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f5d0fe">
-        <animate attributeName="stop-color" values="#f5d0fe;#a5f3fc;#fbcfe8;#f5d0fe" dur="10s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#f6e3c5">
+        <animate attributeName="stop-color" values="#f6e3c5;#e8b06a;#d9a05b;#f6e3c5" dur="10s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#c4b5fd">
-        <animate attributeName="stop-color" values="#c4b5fd;#f0abfc;#a5f3fc;#c4b5fd" dur="10s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#d9b98a">
+        <animate attributeName="stop-color" values="#d9b98a;#e8b06a;#e8b06a;#d9b98a" dur="10s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#7c4ddb" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="0%" stop-color="#8a5a23" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8a5a23" stop-opacity="0.30"/>
     </linearGradient>
     <filter id="tglow" x="-30%" y="-80%" width="160%" height="300%">
       <feGaussianBlur stdDeviation="7" result="b"/>
@@ -84,7 +84,7 @@
       <circle cx="707" cy="73" r="0.87" fill-opacity="0.72"><animate attributeName="opacity" values="0.15;1;0.15" dur="6.14s" begin="1.93s" repeatCount="indefinite"/></circle>
     </g>
     <g>
-      <line x1="0" y1="0" x2="54" y2="26" stroke="#e9d5ff" stroke-width="1.6" stroke-linecap="round" opacity="0">
+      <line x1="0" y1="0" x2="54" y2="26" stroke="#f6e3c5" stroke-width="1.6" stroke-linecap="round" opacity="0">
         <animate attributeName="opacity" values="0;0;0.95;0;0" keyTimes="0;0.62;0.68;0.76;1" dur="14s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="translate" values="600 -40; 600 -40; 790 50; 880 95; 880 95"
           keyTimes="0;0.62;0.70;0.76;1" dur="14s" repeatCount="indefinite"/>
@@ -93,14 +93,14 @@
     <circle cx="742" cy="78" r="86" fill="url(#moonglow)">
       <animate attributeName="r" values="80;96;80" dur="9s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="742" cy="78" r="29" fill="#f3e8ff" opacity="0.92"/>
-    <circle cx="733" cy="70" r="5" fill="#d8b4fe" opacity="0.5"/>
-    <circle cx="750" cy="88" r="3.4" fill="#d8b4fe" opacity="0.45"/>
-    <circle cx="752" cy="66" r="2.4" fill="#d8b4fe" opacity="0.4"/>
-    <path d="M0,300 L0,258 L0,181 L42,181 L42,258 L42,227 L71,190 L101,227 L101,258 L101,218 L130,218 L130,258 L130,213 L186,213 L186,258 L186,192 L218,192 L218,258 L218,202 L257,202 L257,258 L257,218 L282,192 L307,218 L307,258 L307,189 L324,159 L341,189 L341,258 L341,228 L358,206 L375,228 L375,258 L375,215 L394,183 L414,215 L414,258 L414,210 L450,210 L450,258 L450,194 L469,159 L488,194 L488,258 L488,184 L525,184 L525,258 L525,209 L575,209 L575,258 L575,218 L601,180 L627,218 L627,258 L627,207 L657,207 L657,258 L657,190 L670,147 L683,190 L683,258 L683,209 L713,209 L713,258 L713,198 L735,165 L758,198 L758,258 L758,198 L786,173 L814,198 L814,258 L814,227 L835,183 L856,227 L856,258 L856,227 L907,227 L907,258 L900,300 Z" fill="#3b2063" fill-opacity="0.85"/>
+    <circle cx="742" cy="78" r="29" fill="#fff3e0" opacity="0.92"/>
+    <circle cx="733" cy="70" r="5" fill="#d9a05b" opacity="0.5"/>
+    <circle cx="750" cy="88" r="3.4" fill="#d9a05b" opacity="0.45"/>
+    <circle cx="752" cy="66" r="2.4" fill="#d9a05b" opacity="0.4"/>
+    <path d="M0,300 L0,258 L0,181 L42,181 L42,258 L42,227 L71,190 L101,227 L101,258 L101,218 L130,218 L130,258 L130,213 L186,213 L186,258 L186,192 L218,192 L218,258 L218,202 L257,202 L257,258 L257,218 L282,192 L307,218 L307,258 L307,189 L324,159 L341,189 L341,258 L341,228 L358,206 L375,228 L375,258 L375,215 L394,183 L414,215 L414,258 L414,210 L450,210 L450,258 L450,194 L469,159 L488,194 L488,258 L488,184 L525,184 L525,258 L525,209 L575,209 L575,258 L575,218 L601,180 L627,218 L627,258 L627,207 L657,207 L657,258 L657,190 L670,147 L683,190 L683,258 L683,209 L713,209 L713,258 L713,198 L735,165 L758,198 L758,258 L758,198 L786,173 L814,198 L814,258 L814,227 L835,183 L856,227 L856,258 L856,227 L907,227 L907,258 L900,300 Z" fill="#3a2410" fill-opacity="0.85"/>
     <rect y="196" width="900" height="104" fill="url(#mist)" filter="url(#soft)" opacity="0.8"/>
-    <path d="M0,300 L0,300 L0,218 L28,174 L56,218 L56,300 L56,204 L91,204 L91,300 L91,191 L140,191 L140,300 L140,223 L167,192 L195,223 L195,300 L195,205 L249,205 L249,300 L249,245 L268,211 L288,245 L288,300 L288,209 L303,182 L318,209 L318,300 L318,245 L331,191 L345,245 L345,300 L345,241 L365,192 L385,241 L385,300 L385,238 L412,208 L439,238 L439,300 L439,212 L469,180 L499,212 L499,300 L499,231 L528,231 L528,300 L528,201 L543,149 L559,201 L559,300 L559,203 L615,203 L615,300 L615,228 L630,190 L646,228 L646,300 L646,206 L670,160 L694,206 L694,300 L694,238 L739,238 L739,300 L739,206 L786,206 L786,300 L786,188 L848,188 L848,300 L848,197 L898,197 L898,300 L898,224 L911,200 L925,224 L925,300 L900,300 Z" fill="#140a26" fill-opacity="1.0"/>
-    <g filter="url(#soft)" fill="#a855f7" fill-opacity="0.13">
+    <path d="M0,300 L0,300 L0,218 L28,174 L56,218 L56,300 L56,204 L91,204 L91,300 L91,191 L140,191 L140,300 L140,223 L167,192 L195,223 L195,300 L195,205 L249,205 L249,300 L249,245 L268,211 L288,245 L288,300 L288,209 L303,182 L318,209 L318,300 L318,245 L331,191 L345,245 L345,300 L345,241 L365,192 L385,241 L385,300 L385,238 L412,208 L439,238 L439,300 L439,212 L469,180 L499,212 L499,300 L499,231 L528,231 L528,300 L528,201 L543,149 L559,201 L559,300 L559,203 L615,203 L615,300 L615,228 L630,190 L646,228 L646,300 L646,206 L670,160 L694,206 L694,300 L694,238 L739,238 L739,300 L739,206 L786,206 L786,300 L786,188 L848,188 L848,300 L848,197 L898,197 L898,300 L898,224 L911,200 L925,224 L925,300 L900,300 Z" fill="#171009" fill-opacity="1.0"/>
+    <g filter="url(#soft)" fill="#c98a3c" fill-opacity="0.13">
       <ellipse cx="200" cy="250" rx="220" ry="26">
         <animate attributeName="cx" values="120;760;120" dur="38s" repeatCount="indefinite"/>
       </ellipse>
@@ -110,10 +110,10 @@
     </g>
     <g text-anchor="middle" font-family="Georgia,'Times New Roman',serif">
       <text x="450" y="132" font-size="60" font-weight="700" letter-spacing="7" fill="url(#title)" filter="url(#tglow)">MEHRMAH KHAN</text>
-      <text x="450" y="168" font-size="15" letter-spacing="5.5" fill="#cbb6f5" font-family="ui-monospace,monospace" opacity="0.92">
+      <text x="450" y="168" font-size="15" letter-spacing="5.5" fill="#c7a87e" font-family="ui-monospace,monospace" opacity="0.92">
         FULL STACK &#183; ANDROID &#183; LOW LEVEL &#183; LAHORE
       </text>
-      <g stroke="#c084fc" stroke-width="1.4" stroke-linecap="round" opacity="0.8">
+      <g stroke="#e8b06a" stroke-width="1.4" stroke-linecap="round" opacity="0.8">
         <line x1="300" y1="186" x2="430" y2="186">
           <animate attributeName="x1" values="450;300;450" dur="7s" repeatCount="indefinite"/>
         </line>
@@ -121,10 +121,10 @@
           <animate attributeName="x2" values="450;600;450" dur="7s" repeatCount="indefinite"/>
         </line>
       </g>
-      <circle cx="450" cy="186" r="3.6" fill="#f0abfc">
+      <circle cx="450" cy="186" r="3.6" fill="#e8b06a">
         <animate attributeName="r" values="2.6;5;2.6" dur="2.6s" repeatCount="indefinite"/>
       </circle>
     </g>
-    <rect width="900" height="300" rx="16" fill="none" stroke="#8b5cf6" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect width="900" height="300" rx="16" fill="none" stroke="#8a5a23" stroke-opacity="0.45" stroke-width="1.5"/>
   </g>
 </svg>
