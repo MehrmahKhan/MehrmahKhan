@@ -20,48 +20,6 @@ Right now I'm in my 6th semester of Computer Science at FAST-NUCES Lahore, worki
 
 <br/>
 
-## How I Got Here
-
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#241709','primaryTextColor':'#f6e3c5','primaryBorderColor':'#8a5a23','lineColor':'#c98a3c','background':'#0d0804','mainBkg':'#241709','git0':'#e8b06a','git1':'#c98a3c','git2':'#9a6327','git3':'#d9a05b','git4':'#8a5a23','git5':'#f0c27b','gitBranchLabel0':'#1b1109','gitBranchLabel1':'#1b1109','gitBranchLabel2':'#1b1109','gitBranchLabel3':'#1b1109','gitBranchLabel4':'#f6e3c5','gitBranchLabel5':'#1b1109','commitLabelColor':'#f6e3c5','commitLabelBackground':'#241709'}, 'gitGraph': {'mainBranchName':'cs @ fast'}}}%%
-gitGraph
-   commit id: "hello world"
-   commit id: "c++ / oop"
-   branch low-level
-   checkout low-level
-   commit id: "x86 assembly"
-   commit id: "sudoku + maze"
-   checkout "cs @ fast"
-   merge low-level
-   branch desktop
-   checkout desktop
-   commit id: "javafx"
-   commit id: "sfml games"
-   checkout "cs @ fast"
-   merge desktop
-   branch mobile
-   checkout mobile
-   commit id: "android"
-   commit id: "mindbloom"
-   checkout "cs @ fast"
-   merge mobile
-   branch web
-   checkout web
-   commit id: "react"
-   commit id: "moviehive"
-   checkout "cs @ fast"
-   merge web
-   branch ml
-   checkout ml
-   commit id: "pytorch"
-   commit id: "skyread"
-   checkout "cs @ fast"
-   merge ml
-   commit id: "still going"
-```
-
-<br/>
-
 ## Things I've Built
 
 <div align="center">
@@ -195,7 +153,5 @@ Console based social platform built around OOP. Classes, inheritance, and file b
 <div align="center">
 
 <img width="100%" src="assets/fireworks.svg" alt="fireworks over the city" />
-
-<sub>Lahore, Pakistan</sub>
 
 </div>

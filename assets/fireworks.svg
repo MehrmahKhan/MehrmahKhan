@@ -262,6 +262,17 @@
       <rect x="441" y="219" width="3" height="4" fill-opacity="0.55"><animate attributeName="opacity" values="0.2;1;0.2" dur="5.84s" begin="6.21s" repeatCount="indefinite"/></rect>
       <rect x="9" y="270" width="3" height="4" fill-opacity="0.55"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.33s" begin="1.01s" repeatCount="indefinite"/></rect>
     </g>
+    <g text-anchor="middle" font-family="Georgia,Times New Roman,serif">
+      <text x="450" y="188" font-size="27" letter-spacing="6" fill="#f6e3c5" filter="url(#spark)">THANKS FOR SCROLLING</text>
+      <text x="450" y="214" font-size="12" letter-spacing="5" fill="#c7a87e" font-family="ui-monospace,monospace">LAHORE, PAKISTAN</text>
+      <g stroke="#c98a3c" stroke-width="1.2" stroke-linecap="round" opacity="0.75">
+        <line x1="298" y1="232" x2="408" y2="232"/>
+        <line x1="492" y1="232" x2="602" y2="232"/>
+      </g>
+      <circle cx="450" cy="232" r="3" fill="#e8b06a">
+        <animate attributeName="r" values="2;4.5;2" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
     <rect width="900" height="280" rx="14" fill="none" stroke="#8a5a23" stroke-opacity="0.35" stroke-width="1.5"/>
   </g>
 </svg>
